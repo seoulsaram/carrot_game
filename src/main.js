@@ -9,9 +9,9 @@ const gameFinishBanner = new PopUp();
 //field.addEventListener("click", onFieldClick);
 
 const game = new GameBuilder()
-  .withGameDuration(5)
-  .withCarrotCount(3)
-  .withBugCount(3)
+  .withGameDuration(10)
+  .withCarrotCount(9)
+  .withBugCount(9)
   .build();
 game.setGameStopListener((reason) => {
   let message;
